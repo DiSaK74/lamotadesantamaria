@@ -9,15 +9,14 @@ import { TablerIconsModule } from 'angular-tabler-icons';
 import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.css'],
+  selector: 'app-landing-page',
+  templateUrl: './landing-page.component.html',
   imports: [MatBadgeModule, MatButtonModule, MatIconModule, MatCardModule,
     MatListModule, MaterialModule, TablerIconsModule,
     TranslatePipe, TranslateDirective
   ],
 })
-export class AppAboutComponent implements OnInit {
+export class AppLandingPageComponent implements OnInit {
 
   ngOnInit(): void {}
 

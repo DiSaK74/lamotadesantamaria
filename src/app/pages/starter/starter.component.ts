@@ -7,6 +7,7 @@ import { AppTotalIncomeComponent } from 'src/app/components/total-income/total-i
 import { AppPopularProductsComponent } from 'src/app/components/popular-products/popular-products.component';
 import { AppEarningReportsComponent } from 'src/app/components/earning-reports/earning-reports.component';
 import { AppAboutComponent } from '../about/about.component';
+import { AppLandingPageComponent } from '../landingpage/landing-page.component';
 
 @Component({
   selector: 'app-starter',
@@ -18,7 +19,8 @@ import { AppAboutComponent } from '../about/about.component';
     AppTotalIncomeComponent,
     AppPopularProductsComponent,
     AppEarningReportsComponent,
-    AppAboutComponent
+    AppAboutComponent,
+    AppLandingPageComponent
   ],
   templateUrl: './starter.component.html',
   encapsulation: ViewEncapsulation.None,

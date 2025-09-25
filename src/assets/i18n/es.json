@@ -1,0 +1,6 @@
+{
+  "i18n": {
+    "hello": "Hola {{name}}",
+    "title": "Demostración de Traducción"
+  }
+}
