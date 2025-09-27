@@ -8,6 +8,8 @@ import { AppPopularProductsComponent } from 'src/app/components/popular-products
 import { AppEarningReportsComponent } from 'src/app/components/earning-reports/earning-reports.component';
 import { AppAboutComponent } from '../about/about.component';
 import { AppLandingPageComponent } from '../landingpage/landing-page.component';
+import { AppGaleryComponent } from '../galery/galery.component';
+import { AppContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-starter',
@@ -20,7 +22,9 @@ import { AppLandingPageComponent } from '../landingpage/landing-page.component';
     AppPopularProductsComponent,
     AppEarningReportsComponent,
     AppAboutComponent,
-    AppLandingPageComponent
+    AppLandingPageComponent,
+    AppGaleryComponent,
+    AppContactComponent
   ],
   templateUrl: './starter.component.html',
   encapsulation: ViewEncapsulation.None,
