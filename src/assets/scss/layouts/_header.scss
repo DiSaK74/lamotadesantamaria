@@ -2,7 +2,7 @@
 
 html .topbar {
   position: sticky;
-  top: 0;
+  top: 20px;
   z-index: 9;
   height: $header-height;
   background-color: var(--mat-sys-background);

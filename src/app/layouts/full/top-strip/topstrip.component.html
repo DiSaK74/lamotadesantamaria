@@ -5,29 +5,33 @@
         </a>
 
         <div class="linkbar d-flex align-items-center justify-content-center gap-16">
-            <!-- Sobre Nosotros -->
-            <a mat-button class="link-hover p-x-0 text-white d-flex"
-                href="https://www.wrappixel.com/templates/category/angular-templates/" target="_blank">
+            <!-- Home -->
+            <a mat-button class="link-hover p-x-0 text-white d-flex" routerLink="/dashboard">
                 <div class="d-flex align-items-center gap-8 f-s-16 f-w-400">
-                    <i class="iconify icon-20 d-flex" data-icon="solar:window-frame-linear"></i>
+                    <i class="iconify icon-20 d-flex" data-icon="solar:home-2-bold"></i>
+                    Home
+                </div>
+            </a>
+            <!-- Sobre Nosotros -->
+            <a mat-button class="link-hover p-x-0 text-white d-flex" routerLink="/about">
+                <div class="d-flex align-items-center gap-8 f-s-16 f-w-400">
+                    <i class="iconify icon-20 d-flex" data-icon="solar:user-id-bold"></i>
                     Sobre Nosotros
                 </div>
             </a>
 
             <!-- Contacto -->
-            <a mat-button class="link-hover p-x-0 text-white d-flex" href="https://support.wrappixel.com/"
-                target="_blank">
+            <a mat-button class="link-hover p-x-0 text-white d-flex" routerLink="/gallery">
                 <div class="d-flex align-items-center gap-8 f-s-16 f-w-400">
-                    <i class="iconify icon-20 d-flex" data-icon="solar:question-circle-linear"></i>
+                    <i class="iconify icon-20 d-flex" data-icon="solar:gallery-wide-bold"></i>
                     Galeria
                 </div>
             </a>
 
             <!-- Aquí -->
-            <a mat-button class="link-hover p-x-0 text-white d-flex" href="https://www.wrappixel.com/hire-us/"
-                target="_blank">
+            <a mat-button class="link-hover p-x-0 text-white d-flex" routerLink="/contact">
                 <div class="d-flex align-items-center gap-8 f-s-16 f-w-400">
-                    <i class="iconify icon-20 d-flex" data-icon="solar:case-round-linear"></i>
+                    <i class="iconify icon-20 d-flex" data-icon="solar:pen-new-square-outline"></i>
                     Contacto
                 </div>
             </a>

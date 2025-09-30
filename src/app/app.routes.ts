@@ -1,6 +1,9 @@
 import { Routes } from '@angular/router';
 import { BlankComponent } from './layouts/blank/blank.component';
 import { FullComponent } from './layouts/full/full.component';
+import { AppAboutComponent } from './pages/about/about.component';
+import { AppGaleryComponent } from './pages/galery/galery.component';
+import { AppContactComponent } from './pages/contact/contact.component';
 
 export const routes: Routes = [
   {
@@ -18,11 +21,21 @@ export const routes: Routes = [
           import('./pages/pages.routes').then((m) => m.PagesRoutes),
       },
       {
+        path: 'about',
+        component: AppAboutComponent
+      },
+      {
+        path: 'gallery',
+        component: AppGaleryComponent
+      },
+      {
+        path: 'contact',
+        component: AppContactComponent
+      },
+      {
         path: 'ui-components',
         loadChildren: () =>
-          import('./pages/ui-components/ui-components.routes').then(
-            (m) => m.UiComponentsRoutes
-          ),
+          import('./pages/ui-components/ui-components.routes').then((m) => m.UiComponentsRoutes),
       },
       {
         path: 'extra',

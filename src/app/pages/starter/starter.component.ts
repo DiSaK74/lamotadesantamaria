@@ -24,7 +24,7 @@ import { AppContactComponent } from '../contact/contact.component';
     AppAboutComponent,
     AppLandingPageComponent,
     AppGaleryComponent,
-    AppContactComponent
+    AppContactComponent,
   ],
   templateUrl: './starter.component.html',
   encapsulation: ViewEncapsulation.None,
