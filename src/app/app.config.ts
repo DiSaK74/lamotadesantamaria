@@ -36,7 +36,7 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideTranslateService({
       loader: provideTranslateHttpLoader({
-        prefix: '/assets/i18n/',
+        prefix: 'assets/i18n/',
         suffix: '.json'
       }),
       fallbackLang: 'en',
