@@ -1,6 +1,0 @@
-{
-  "i18n": {
-    "hello": "hello {{name}}",
-    "title": "Translation Demo"
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "i18n": {
+    "hello": "hello {{name}}",
+    "title": "Translation Demo"
+  },
+  "landingPage": {
+    "Title1": "Breeders",
+    "Title1Highlight": "professional dog breeders",
+    "Title1End": "of companion dogs",
+    "Subtitle1": "Dedicated to dog breeding for passion and vocation for over 15 years. If you are looking for reliable, ethical, and responsible dog breeders in Spain, we can help you."
+  }
+}
