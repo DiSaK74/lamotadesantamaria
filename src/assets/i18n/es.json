@@ -2,5 +2,11 @@
   "i18n": {
     "hello": "Hola {{name}}",
     "title": "Demostración de Traducción"
+  },
+  "landingPage": {
+    "Title1": "Criadores",
+    "Title1Highlight": "caninos profesionales ",
+    "Title1End": "de perros de compañía",
+    "Subtitle1": "Dedicados a la cinofilia o cría de perros, por pasión y vocación, desde hace más de 15 años. Si estás buscando criaderos de perros fiables, éticos y responsables en España, podemos ayudarte."
   }
 }

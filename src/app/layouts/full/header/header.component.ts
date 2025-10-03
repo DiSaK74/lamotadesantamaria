@@ -26,6 +26,7 @@ import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-transl
     TranslatePipe, TranslateDirective
   ],
   templateUrl: './header.component.html',
+  styleUrls: ['./header.component.scss'],
   encapsulation: ViewEncapsulation.None,
 })
 
