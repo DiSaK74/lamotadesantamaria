@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy": "ng build --configuration=production --base-href=/lamotadesantamaria/ && if exist dist\\lamotadesantamaria\\browser (move dist\\lamotadesantamaria\\browser\\* dist\\lamotadesantamaria\\  && rmdir /s /q dist\\lamotadesantamaria\\browser) && npx angular-cli-ghpages --dir=dist/lamotadesantamaria"
+  "deploy": "ng build --configuration=production --base-href=/lamotadesantamaria/ && if exist dist\\lamotadesantamaria\\browser (robocopy dist\\lamotadesantamaria\\browser dist\\lamotadesantamaria /E /MOVE >nul && rmdir /s /q dist\\lamotadesantamaria\\browser) && npx angular-cli-ghpages --dir=dist/lamotadesantamaria"
   },
   "private": true,
   "dependencies": {
