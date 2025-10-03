@@ -6,6 +6,7 @@ import { CommonModule } from '@angular/common';
 import { TablerIconsModule } from 'angular-tabler-icons';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { NgScrollbarModule } from 'ngx-scrollbar';
+import { environment } from 'src/environments/environment';
 
 
 export interface productsData {
@@ -21,7 +22,7 @@ export interface productsData {
 const ELEMENT_DATA: productsData[] = [
     {
         id: 1,
-        imagePath: 'assets/images/products/s1.jpg',
+        imagePath: environment.baseHref + '/assets/images/products/s1.jpg',
         uname: 'iPhone 13 pro max-Pacific Blue-128GB storage',
         price: '$180',
         paid: 'Partially paid',
@@ -30,7 +31,7 @@ const ELEMENT_DATA: productsData[] = [
     },
     {
         id: 2,
-        imagePath: 'assets/images/products/s2.jpg',
+        imagePath: environment.baseHref + '/assets/images/products/s2.jpg',
         uname: 'Apple MacBook Pro 13 inch-M1-8/256GB-space',
         price: '$120',
         paid: 'Full paid',
@@ -39,7 +40,7 @@ const ELEMENT_DATA: productsData[] = [
     },
     {
         id: 3,
-        imagePath: 'assets/images/products/s3.jpg',
+        imagePath: environment.baseHref + '/assets/images/products/s3.jpg',
         uname: 'PlayStation 5 DualSense Wireless Controller',
         price: '$120',
         paid: 'Cancelled',
@@ -48,7 +49,7 @@ const ELEMENT_DATA: productsData[] = [
     },
     {
         id: 4,
-        imagePath: 'assets/images/products/s4.jpg',
+        imagePath: environment.baseHref + '/assets/images/products/s4.jpg',
         uname: 'Amazon Basics Mesh, Mid-Back, Swivel Office De...',
         price: '$120',
         paid: 'Partially paid',

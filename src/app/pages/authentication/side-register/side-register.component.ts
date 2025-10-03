@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from 'src/app/material.module';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-side-register',
@@ -12,6 +13,7 @@ import { MaterialModule } from 'src/app/material.module';
   templateUrl: './side-register.component.html',
 })
 export class AppSideRegisterComponent {
+  public baseHref = environment.baseHref;
   options = this.settings.getOptions();
 
   constructor(private settings: CoreService, private router: Router) {}

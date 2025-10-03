@@ -7,6 +7,7 @@ import { MatListModule } from '@angular/material/list';
 import { MaterialModule } from 'src/app/material.module';
 import { TablerIconsModule } from 'angular-tabler-icons';
 import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-landing-page',
@@ -17,6 +18,8 @@ import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
   ],
 })
 export class AppLandingPageComponent implements OnInit {
+
+  public baseHref = environment.baseHref;
 
   ngOnInit(): void {}
 

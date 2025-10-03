@@ -7,6 +7,7 @@ import {
   inject,
 } from '@angular/core';
 import { TablerIconsModule } from 'angular-tabler-icons';
+import { environment } from 'src/environments/environment';
 import { MaterialModule } from 'src/app/material.module';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -37,6 +38,7 @@ export class HeaderComponent {
 
   translate: any;
   name = 'DMB';
+  public baseHref = environment.baseHref;
 
   constructor() {
     this.translate = inject(TranslateService);

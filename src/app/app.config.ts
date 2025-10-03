@@ -30,13 +30,14 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 //DMB
 import { provideTranslateService } from "@ngx-translate/core";
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
+import { environment } from 'src/environments/environment';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideTranslateService({
       loader: provideTranslateHttpLoader({
-        prefix: 'assets/i18n/',
+        prefix: environment.baseHref + '/assets/i18n/',
         suffix: '.json'
       }),
       fallbackLang: 'en',
