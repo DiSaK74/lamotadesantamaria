@@ -109,8 +109,8 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/lamotadesantamaria/",
-            "deployUrl": "/lamotadesantamaria/",
+            "baseHref": "/",
+            "deployUrl": "/",
             "outputPath": "dist/lamotadesantamaria"
           }
         }
