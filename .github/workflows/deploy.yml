@@ -21,9 +21,13 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        #run: npm run build -- --base-href "/"
-        run: npm run build -- --base-href="/" && if exist dist\\lamotadesantamaria\\browser (robocopy dist\\lamotadesantamaria\\browser dist\\lamotadesantamaria /E /MOVE >nul && rmdir /s /q dist\\lamotadesantamaria\\browser) 
-
+        run: npm run build -- --base-href "/"
+      
+      - name: Move browser contents to root
+        run: |
+          mv dist/browser/* dist/
+          rm -r dist/browser
+    
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
