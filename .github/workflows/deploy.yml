@@ -25,7 +25,7 @@ jobs:
       
       - name: Move browser contents to root
         run: |
-          mv browser/* dist/
+          mv browser/* /
           rm -r browser
     
       - name: Deploy to GitHub Pages
