@@ -24,7 +24,7 @@ jobs:
         run: npm run build -- --base-href "/"
 
       - name: Copiar index.html como 404.html
-        run: cp dist/lamotadesantamaria/index.html dist/lamotadesantamaria/404.html        
+        run: cp dist/lamotadesantamaria/browser/index.html dist/lamotadesantamaria/browser/404.html        
     
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
