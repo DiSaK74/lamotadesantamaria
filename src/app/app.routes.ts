@@ -12,13 +12,13 @@ export const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/dashboard',
-        pathMatch: 'full',
+        loadChildren: () =>
+          import('./pages/pages.routes').then((m) => m.PagesRoutes),
       },
       {
         path: 'dashboard',
-        loadChildren: () =>
-          import('./pages/pages.routes').then((m) => m.PagesRoutes),
+        redirectTo: '',
+        pathMatch: 'full',
       },
       {
         path: 'about',
