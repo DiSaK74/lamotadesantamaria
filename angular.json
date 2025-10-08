@@ -21,9 +21,7 @@
               "apexcharts",
               "bezier-easing"
             ],
-            "outputPath": {
-              "base": "dist/lamotadesantamaria"
-            },
+            "outputPath": "dist/lamotadesantamaria",
             "index": "src/index.html",
             "polyfills": [
               "zone.js"
